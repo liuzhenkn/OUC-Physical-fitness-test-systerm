@@ -399,3 +399,40 @@ ul{
 .myinfo .sec_info{
   width: 240px;
 }
+/*预约查询*/
+.order table{
+  margin-left: 40px;
+}
+.order table tr{
+  width: 750px;
+}
+.o_fir{
+  width: 130px;
+}
+.o_sec{
+  width: 220px;
+}
+.o_thi{
+  width: 80px;
+}
+.o_for{
+  width: 200px;
+}
+.order .order_info td:last-child{
+  width: 80px;
+  font-size: 12px;
+}
+.order_info{
+  color:#494949;
+}
+.order_info tr{
+  border-bottom:2px solid #ededed;
+  height: 40px;
+  line-height: 40px;
+}
+.order .order_info a{
+  color: #b9b9b9;
+}
+.order .order_info a:hover{
+  color: #1d86ca;
+}
