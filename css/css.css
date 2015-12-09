@@ -436,3 +436,7 @@ ul{
 .order .order_info a:hover{
   color: #1d86ca;
 }
+/*教师部分*/
+.mainlist .index{
+  border-bottom: 3px solid #1d86ca;
+}
