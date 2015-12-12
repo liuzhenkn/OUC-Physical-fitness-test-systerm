@@ -228,7 +228,7 @@ ul{
   margin-right: 140px;
   color: #494949;
 }
-.choose{
+#choose{
   height: 240px;
   width: 300px;
   background: rgba(255,255,255,0.8);
@@ -236,7 +236,7 @@ ul{
   left: 50%;
   top: 60%;
   border: 1px solid #1d86ca;
-  display: none;
+/*  display: none;*/
 }
 .cancel{
   height: 25px;
@@ -247,10 +247,10 @@ ul{
   right: 20px;
   top: 23px;
 }
-.choose h3{
+#choose h3{
   margin: 25px 0 25px 25px;
 }
-.choose a{
+#choose button{
   background: #a2d0f1;
   margin: 15px auto;
   text-align: center;
@@ -259,8 +259,9 @@ ul{
   height: 35px;
   width: 174px;
   color: #fff;
+  cursor: pointer;
 }
-.choose a:hover{
+#choose button:hover{
   background: #1d86ca;
 }
 /*首页*/
@@ -329,6 +330,18 @@ ul{
 .changelist input{
   width:20px;
   margin: 20px 0;
+}
+.changelist form button{
+  margin: 0 10px;
+  color: #fff;
+  width: 50px;
+  height: 22px;
+  background:  #a2d0f1;
+  cursor: pointer;
+  line-height: 22px;
+}
+.changelist form button:hover{
+  background: #1d86ca;
 }
 /*测试成绩查询2*/
 .classes{
@@ -439,4 +452,53 @@ ul{
 /*教师部分*/
 .mainlist .index{
   border-bottom: 3px solid #1d86ca;
+}
+.T_fir_title{
+  width: 110px;
+}
+.T_sec_title{
+  width: 130px;
+}
+.T_thi_title{
+  width: 150px;
+}
+.T_for_title{
+  width: 80px;
+}
+.T_fif_title{
+  width: 140px;
+}
+.T_six_title{
+  width: 80px;
+}
+.T_six_title button{
+  float: right;
+  font-size: 12px;
+  margin-top: 6px;
+  margin-right: 0px;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background: #a2d0f1;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.all_grade{
+  float: right;
+  font-size: 14px;
+  margin-top: 22px;
+  margin-right: 0px;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  background: #a2d0f1;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.all_grade:hover{
+  background: #1d86ca;
 }

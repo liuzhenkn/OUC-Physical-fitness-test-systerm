@@ -4,6 +4,16 @@
   <link rel="stylesheet" href="./css/css.css">
   <meta charset="UTF-8">
   <title>中国海洋大学体质测试预约系统</title>
+  <script>
+  function ShowSchool(){
+		var  cho = document.getElementById('choose');
+		cho.style.display="block";
+	};
+  function HideSchool(){
+		var  cho = document.getElementById('choose');
+		cho.style.display="none";
+	};
+  </script>
 </head>
 <body>
 	  <div class="header">
@@ -33,12 +43,12 @@
 	      </ul>
 	    </div>
 	    <div class="mainbody">
-	      <div class="choose">
+	      <div id="choose" style="display:none;">
 	      	<h3>校区选择</h3>
-	      	<div class="cancel"></div>
-	      	<a href="#">崂山校区</a>
-	      	<a href="#">鱼山校区</a>
-	      	<a href="#">浮山校区</a>
+	      	<div class="cancel" onclick="HideSchool()"></div>
+	      	<button>崂山校区</button>
+	      	<button>鱼山校区</button>
+	      	<button>浮山校区</button>
 	      </div>
 	      <div class="guide">
 	      	<span>当前位置:</span>
@@ -84,22 +94,22 @@
 	      			<li>
 	      				<div class="term_info">2015年秋季学期体质测试</div>
 	      				<div class="term_time">2015-11-11</div>
-	      				<button>可预约</button>
+	      				<button onclick="ShowSchool()">可预约</button>
 	      			</li>
 	      			<li>
 	      				<div class="term_info">2015年秋季学期体质测试</div>
 	      				<div class="term_time">2015-11-11</div>
-	      				<button>可预约</button>
+	      				<button onclick="ShowSchool()">可预约</button>
 	      			</li>
 	      			<li>
 	      				<div class="term_info">2015年秋季学期体质测试</div>
 	      				<div class="term_time">2015-11-11</div>
-	      				<button>可预约</button>
+	      				<button onclick="ShowSchool()">可预约</button>
 	      			</li>
 	      			<li>
 	      				<div class="term_info">2015年秋季学期体质测试</div>
 	      				<div class="term_time">2015-11-11</div>
-	      				<button>可预约</button>
+	      				<button onclick="ShowSchool()">可预约</button>
 	      			</li>
 	      		</ul>
 	      	</div>
@@ -107,15 +117,4 @@
 	    </div>
 	  </div>
 </body>
-<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function(){
-		$(".term button").click(function(){
-			$(".choose").show();
-		});
-		$(".cancel").click(function(){
-			$(".choose").hide();
-		});
-});
-</script>
 </html>
