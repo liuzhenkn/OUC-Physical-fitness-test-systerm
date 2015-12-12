@@ -9,6 +9,7 @@ body{
 button{
   outline: none;
   border: none;
+  font-family: 微软雅黑;
 }
 table tr{
   display: block;
