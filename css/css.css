@@ -503,3 +503,89 @@ ul{
 .all_grade:hover{
   background: #1d86ca;
 }
+/*查看学生成绩*/
+.grade button{
+  float: right;
+  font-size: 12px;
+  margin-top: 6px;
+  margin-right: 50px;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background: #a2d0f1;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.grade button:hover{
+  background: #1d86ca;
+}
+#change_grade{
+  position: absolute;
+  width: 750px;
+  height: 350px;
+  background: rgba(255,255,255,1);
+  left: 25%;
+  top: 40%;
+  border: 1px solid #1d86ca;
+  padding:20px 30px;
+}
+#change_grade td{
+  display: block;
+  width: 120px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+}
+#change_grade tr{
+  width: 750px;
+  float: left;
+}
+#change_grade input{
+  width: 116px;
+}
+#change_grade span{
+  margin-left: 600px;
+  font-size: 12px;
+}
+#change_grade button{
+  font-size: 12px;
+  margin-left: 630px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  background: #a2d0f1;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+#change_grade button:hover{
+  background: #1d86ca;
+}
+/*所有成绩*/
+.teacher_search_grade tr{
+  color: #494949;
+  font-size:12px;
+  margin: 10px 0;
+}
+.teacher_search_grade h3{
+  margin-left: 55px;
+}
+.teacher_search_grade tr:first-child{
+  color: #1d86ca;
+  font-size: 14px;
+}
+.teacher_search_grade td{
+  width: 80px;
+}
+/*新闻*/
+.single_new p{
+  font-size: 14px;
+  color: #494949;
+  word-wrap:break-word;
+  word-break:normal; 
+  padding-top: 30px;
+}
