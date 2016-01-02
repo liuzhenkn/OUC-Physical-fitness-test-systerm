@@ -589,3 +589,31 @@ ul{
   word-break:normal; 
   padding-top: 30px;
 }
+/*login*/
+.login{
+  width: 500px;
+  height: 400px;
+  background: url(../img/s-b.jpg);
+  background-position: center;
+  position: relative;
+  left: 33%;
+  top: 18%;
+}
+.login input{
+  width: 200px;
+  height: 30px;
+  margin: 0;
+  position: absolute;
+}
+.login .text1{
+  left: 40px;
+  top: 100px;
+}
+.background{
+  background: url(../img/bbb.jpg);
+  /*background-repeat: no-repeat;*/
+  /*background-size: 100%;*/
+  background-position: center;
+  width: 100%;
+  height: 635px;
+}
